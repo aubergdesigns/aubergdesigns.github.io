@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 h1 {
-    margin-top: 510px;
+    margin-top: 400px;
     letter-spacing: 4px;
     color: #fff;
     font-family: 'Montserrat',sans-serif;
@@ -246,33 +246,22 @@ h4.heading:after {
 }
 
 /*====== MEDIA ======*/
-@media (max-width: 991px) {
-    .slideshow {
-        margin: 0 auto;
-    }
-}
 
 @media (max-width: 991px) {
+  .slideshow {
+      margin: 0 auto;
+  }
 
-    .img-responsive {
-        display: none;
-    }
 
-    .pagenav.p2 {
-        display: none;
-    }
 
-    .slick-slide img {
-        display: block;
-        max-height: auto;
-        max-width: 300px;
-        padding-right: 5px;
-    }
+
+
 
     h1 {
         margin-top: 200px;
         font-size: 40px;
-        padding: 10px 0;
+        padding: 30px 0;
+
     }
 
     #page2 {
@@ -281,16 +270,14 @@ h4.heading:after {
     }
 
     .slick-slide img {
-        max-height: 200px;
+        max-height: 400px;
     }
 
     .about {
         padding: 0 20px;
     }
 
-    #page3 {
-    /*height: 100%;*/
-    }
+
 
     #page3 li {
     }
@@ -312,6 +299,18 @@ h4.heading:after {
 }
 
 @media (max-width:600px) {
+  .slick-slide img {
+      max-height: 190px;
+      padding-right: 5px;
+  }
+  .img-responsive {
+      display: none;
+  }
+
+.pagenav.p2 {
+      display: none;
+  }
+
     h1 {
         letter-spacing: 2px;
         margin-bottom: 2px;
