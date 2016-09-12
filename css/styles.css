@@ -264,7 +264,7 @@ h4.heading:after {
 
     .slick-slide img {
         display: block;
-        max-height: 300px;
+        max-height: auto;
         max-width: 300px;
         padding-right: 5px;
     }
